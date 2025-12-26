@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import MealDetails from './pages/MealDetails';
+import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
                 <Route path="/ingredients" element={<Home view="ingredients" />} />
                 <Route path="/area" element={<Home view="area" />} />
                 <Route path="/meal/:id" element={<MealDetails />} />
+                <Route path="*" element={<NotFound />} />
               </Routes>
             </div>
             <Footer />
