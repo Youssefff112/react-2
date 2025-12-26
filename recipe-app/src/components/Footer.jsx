@@ -6,7 +6,7 @@ export default function Footer() {
           {/* Left: Recipe Logo */}
           <div className="flex items-center gap-2">
             <img 
-              src="/src/assets/logo.png" 
+              src="/logo.png" 
               alt="Recipe Logo" 
               className="h-10 w-auto"
             />

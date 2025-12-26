@@ -10,7 +10,7 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="mb-6 text-center pb-6">
         <img 
-          src="/src/assets/logo.png" 
+          src="/logo.png" 
           alt="Recipe Logo" 
           className="h-32 w-auto mx-auto"
         />
