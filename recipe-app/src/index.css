@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@keyframes spin-right {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.spin-recipe {
+  animation: spin-right 1s ease-in-out;
+}
+
+body {
+  font-family: cursive;
+}
